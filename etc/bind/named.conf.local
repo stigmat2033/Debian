@@ -1,0 +1,9 @@
+zone "debi.pfr" {
+   type master;
+   file "/etc/bind/db.debi.pfr";
+};
+
+zone "0.168.192.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.192";
+};
