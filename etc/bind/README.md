@@ -1,2 +1,0 @@
-# Debian
-Debian server repository
