@@ -1,0 +1,6 @@
+#!/bin/bash
+echo 'Tag:'
+read tag
+echo 'Package to install:'
+read inst
+aptitude install --add-user-tag $tag $inst
