@@ -16,7 +16,3 @@
 # alias rm='rm -i'
 # alias cp='cp -i'
 # alias mv='mv -i'
-alias tags='aptitude show '~i' | grep "User Tags" | sort | uniq'
-alias tagsearch='/bin/./tagsearch'
-alias tagremove='/bin/./tagremove'
-alias taginstall='/bin/./taginstall'

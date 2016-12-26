@@ -1,4 +1,0 @@
-#!/bin/bash
-echo 'Looking for:'
-read tag
-aptitude search '?user-tag('$tag')'

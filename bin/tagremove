@@ -1,4 +1,0 @@
-#!/bin/bash
-echo 'Tag:'
-read tag
-aptitude purge --remove-user-tag $tag '?user-tag('$tag')'
