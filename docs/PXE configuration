@@ -1,0 +1,13 @@
+Debian PXE configuration
+
+Installing packages:
+apt-get install isc-dhcp-server tftpd-hpa
+
+Changing configuration files:
+/etc/default/isc-dhcp-server
+/etc/default/tftpd-hpa
+/etc/dhcp/dhcpd.conf
+
+Restarting services:
+service isc-dhcp-server restart
+service tftpd-hpa restart
