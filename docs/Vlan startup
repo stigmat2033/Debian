@@ -1,0 +1,13 @@
+Making vlan subinterface with auto startup:
+
+Installing packages:
+apt-get install vlan
+
+Changing configuration files:
+/etc/modules
+/etc/network/interfaces
+/etc/sysctl.conf
+
+Working with services:
+modprobe 8021q
+service networking restart
