@@ -1,0 +1,15 @@
+path ../amd64/
+#include debian-installer/amd64/boot-screens/menu.cfg
+default ../amd64/vesamenu.c32
+
+menu title PXE menu
+
+label Boot from local first disk
+localboot 0X80
+
+label Acronis true image
+kernel ../acronis/kernel
+append initrd=../acronis/ramdisk /s quiet vga=791
+
+prompt 0
+timeout 120
