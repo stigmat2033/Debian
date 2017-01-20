@@ -1,0 +1,12 @@
+[Unit]
+Description=Executing iptables recovery script
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/iptables_recovery
+Type=oneshot
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+
